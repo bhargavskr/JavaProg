@@ -1,0 +1,19 @@
+class BoolTest
+{
+		public static void main(String arg[])
+		{
+			boolean b;
+			b=false;
+			
+			System.out.println("b is "+b);
+			b=true;
+			System.out.println("b is "+b);
+			
+			if(b)
+			System.out.println("This is not executed");
+			
+			System.out.println(" 10>9 "+(10>9));
+			
+			}
+			
+	}
